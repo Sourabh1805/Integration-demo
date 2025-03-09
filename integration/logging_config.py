@@ -53,7 +53,7 @@ def configure_logging() -> None:
             },
             "loggers": {
                 "uvicorn": {"handlers": ["default", "rotating_file"], "level": "INFO"},
-                "storeapi": {
+                "integration": {
                     "handlers": handlers,
                     "level": "INFO" if settings.ENV == "prod" else "DEBUG",
                     "propagate": False,

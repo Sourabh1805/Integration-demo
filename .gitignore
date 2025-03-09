@@ -9,3 +9,4 @@ venv
 .vscode
 .env.dev
 .env.test
+.pytest_cache
